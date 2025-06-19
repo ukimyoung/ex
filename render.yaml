@@ -1,9 +1,8 @@
 services:
-  - type: web
+  - type: static_site
     name: ex-smartchart-viewer
-    runtime: static
     buildCommand: npm install
-    staticPublishPath: ./
+    publishDir: ./
     envVars:
       - key: RENDER_EXTERNAL_URL
         value: https://ex-smartchart-viewer.onrender.com
