@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ex-smartchart-viewer
+    runtime: static
+    buildCommand: echo "Static site, no build needed"
+    staticPublishPath: ./
+    envVars:
+      - key: RENDER_EXTERNAL_URL
+        value: https://ex-smartchart-viewer.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html 
