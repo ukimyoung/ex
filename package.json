@@ -1,0 +1,23 @@
+{
+  "name": "ex-smartchart-viewer",
+  "version": "1.0.0",
+  "description": "EX 알람 차트보기 웹 애플리케이션",
+  "main": "app.js",
+  "scripts": {
+    "start": "echo 'Static site, no server needed'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukimyoung/ex.git"
+  },
+  "keywords": [
+    "chart",
+    "cryptocurrency",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT"
+} 

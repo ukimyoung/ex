@@ -2,7 +2,7 @@ services:
   - type: web
     name: ex-smartchart-viewer
     runtime: static
-    buildCommand: echo "Static site, no build needed"
+    buildCommand: npm install
     staticPublishPath: ./
     envVars:
       - key: RENDER_EXTERNAL_URL
